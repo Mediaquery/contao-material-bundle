@@ -8,10 +8,10 @@
  * @license LGPL-3.0-or-later
  */
 
-namespace Mediaquery\ContaoMaterialBundle2;
+namespace Mediaquery\ContaoMaterialBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class ContaoMaterialBundle2 extends Bundle
+class ContaoMaterialBundle extends Bundle
 {
 }
