@@ -5,6 +5,7 @@
  *
  * (c) John Doe
  *
+ *
  * @license LGPL-3.0-or-later
  */
 

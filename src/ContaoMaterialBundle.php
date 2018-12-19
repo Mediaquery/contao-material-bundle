@@ -6,6 +6,7 @@
  * (c) Jerome Metz
  *
  * @license LGPL-3.0-or-later
+ *
  */
 
 namespace Mediaquery\ContaoMaterialBundle;
