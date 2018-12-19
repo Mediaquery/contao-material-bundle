@@ -38,7 +38,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Mediaquery\\MaterialBundle\\Tests\\": "tests/"
+            "Mediaquery\\ContaoMaterialBundle\\Tests\\": "tests/"
         }
     },
     "support": {
