@@ -11,7 +11,7 @@
 
 namespace Contao\ContaoMaterialBundle\Tests;
 
-use Mediaquery\ContaoMaterialBundle\REPEAT;
+use Mediaquery\ContaoMaterialBundle\ContaoMaterialBundle;
 use PHPUnit\Framework\TestCase;
 
 class ContaoMaterialBundleTest extends TestCase
@@ -20,6 +20,6 @@ class ContaoMaterialBundleTest extends TestCase
     {
         $bundle = new ContaoMaterialBundle();
 
-        $this->assertInstanceOf('Mediaquery\ContaoMaterialBundle\REPEAT', $bundle);
+        $this->assertInstanceOf('Mediaquery\ContaoMaterialBundle\ContaoMaterialBundle', $bundle);
     }
 }
