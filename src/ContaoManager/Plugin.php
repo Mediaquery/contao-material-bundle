@@ -8,7 +8,7 @@
  * @license LGPL-3.0-or-later
  */
 
-namespace Mediaquery\ContaoMaterialBundle\ContaoManager;
+namespace AMediaquery\AContaoMaterialBundle\AContaoManager;
 
 use Contao\CoreBundle\ContaoCoreBundle;
 use Contao\ManagerPlugin\Bundle\BundlePluginInterface;

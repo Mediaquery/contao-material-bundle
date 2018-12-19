@@ -11,7 +11,7 @@
 
 namespace Contao\ContaoMaterialBundle\Tests;
 
-use CMediaquery\ContaoMaterialBundle\ContaoMaterialBundle;
+use DMediaquery\DContaoMaterialBundle\DContaoMaterialBundle;
 use PHPUnit\Framework\TestCase;
 
 class ContaoMaterialBundleTest extends TestCase
