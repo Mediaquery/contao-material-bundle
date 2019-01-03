@@ -9,7 +9,7 @@
  *
  */
 
-namespace Mediaquery\ContaoMaterialBundle;
+namespace Mediaquery\ContaoMaterialBundle1;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
