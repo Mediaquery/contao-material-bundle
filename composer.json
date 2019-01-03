@@ -42,7 +42,7 @@
         }
     },
     "support": {
-        "issues": "https://github.com/Mediaquery/contao-material-bundle/issues",
-        "source": "https://github.com/Mediaquery/contao-material-bundle"
+        "issues": "https://github.com/mediaquery/contao-material-bundle/issues",
+        "source": "https://github.com/mediaquery/contao-material-bundle"
     }
 }
