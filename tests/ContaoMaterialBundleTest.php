@@ -20,6 +20,6 @@ class ContaoMaterialBundleTest extends TestCase
     {
         $bundle = new ContaoMaterialBundle();
 
-        $this->assertInstanceOf('Mediaquery\ContaoMaterialBundle\ContaoMaterialBundle4', $bundle);
+        $this->assertInstanceOf('Mediaquery\ContaoMaterialBundle\ContaoMaterialBundle', $bundle);
     }
 }

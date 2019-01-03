@@ -13,6 +13,6 @@ namespace Mediaquery\ContaoMaterialBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class ContaoMaterialBundle3 extends Bundle
+class ContaoMaterialBundle extends Bundle
 {
 }
