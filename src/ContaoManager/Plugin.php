@@ -3,7 +3,7 @@
 /*
  * This file is part of [package name].
  *
- * (c) Jerome Metz
+ * (c) Jerome Metz V0
  *
  * @license LGPL-3.0-or-later
  */
