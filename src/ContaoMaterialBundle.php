@@ -9,10 +9,10 @@
  *
  */
 
-namespace Mediaquery\ContaoMaterialBundle1;
+namespace Mediaquery\ContaoMaterialBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class ContaoMaterialBundle extends Bundle
+class ContaoMaterialBundle3 extends Bundle
 {
 }

@@ -14,7 +14,7 @@ use Contao\CoreBundle\ContaoCoreBundle;
 use Contao\ManagerPlugin\Bundle\BundlePluginInterface;
 use Contao\ManagerPlugin\Bundle\Config\BundleConfig;
 use Contao\ManagerPlugin\Bundle\Parser\ParserInterface;
-use Material\ContaoMaterialBundle\ContaoMaterialBundle;
+use Material\ContaoMaterialBundle\ContaoMaterialBundle1;
 
 class Plugin implements BundlePluginInterface
 {
@@ -24,7 +24,7 @@ class Plugin implements BundlePluginInterface
     public function getBundles(ParserInterface $parser)
     {
         return [
-            BundleConfig::create(ContaoMaterialBundle::class)
+            BundleConfig::create(ContaoMaterialBundle2::class)
                 ->setLoadAfter([ContaoCoreBundle::class]),
         ];
     }
