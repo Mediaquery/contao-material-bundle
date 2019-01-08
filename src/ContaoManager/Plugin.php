@@ -16,7 +16,7 @@ use Contao\ManagerPlugin\Bundle\Config\BundleConfig;
 use Contao\ManagerPlugin\Bundle\Parser\ParserInterface;
 use Mediaquery\MaterialBundle\ContaoMaterialBundle;
 
-class PluginX implements BundlePluginInterface
+class Plugin implements BundlePluginInterface
 {
     /**
      * {@inheritdoc}
