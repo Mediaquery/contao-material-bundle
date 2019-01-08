@@ -9,9 +9,9 @@
  * @license LGPL-3.0-or-later
  */
 
-namespace Mediaquery\ContaoMaterialBundle\Tests;
+namespace Mediaquery\MaterialBundle\Tests;
 
-use Mediaquery\ContaoMaterialBundle\ContaoMaterialBundle;
+use Mediaquery\MaterialBundle\ContaoMaterialBundle;
 use PHPUnit\Framework\TestCase;
 
 class ContaoMaterialBundleTest extends TestCase
@@ -20,6 +20,6 @@ class ContaoMaterialBundleTest extends TestCase
     {
         $bundle = new ContaoMaterialBundle();
 
-        $this->assertInstanceOf('Mediaquery\ContaoMaterialBundle\ContaoMaterialBundle', $bundle);
+        $this->assertInstanceOf('Mediaquery\MaterialBundle\ContaoMaterialBundle', $bundle);
     }
 }
