@@ -16,7 +16,7 @@ use Contao\ManagerPlugin\Bundle\Config\BundleConfig;
 use Contao\ManagerPlugin\Bundle\Parser\ParserInterface;
 use Mediaquery\MaterialBundle\ContaoMaterialBundle;
 
-class Plugin implements BundlePluginInterface
+class PluginX implements BundlePluginInterface
 {
     /**
      * {@inheritdoc}
@@ -24,7 +24,7 @@ class Plugin implements BundlePluginInterface
     public function getBundles(ParserInterface $parser)
     {
         return [
-            BundleConfig::create(MaterialBundle::class)
+            BundleConfig::create(ContaoMaterialBundle::class)
                 ->setLoadAfter([ContaoCoreBundle::class]),
         ];
     }
