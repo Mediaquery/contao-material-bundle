@@ -8,13 +8,13 @@
  * @license LGPL-3.0-or-later
  */
 
-namespace Mediaquery\MaterialBundle\ContaoManager;
+namespace Contao\MaterialBundle\ContaoManager;
 
 use Contao\CoreBundle\ContaoCoreBundle;
 use Contao\ManagerPlugin\Bundle\BundlePluginInterface;
 use Contao\ManagerPlugin\Bundle\Config\BundleConfig;
 use Contao\ManagerPlugin\Bundle\Parser\ParserInterface;
-use Mediaquery\MaterialBundle\ContaoMaterialBundle;
+use Contao\MaterialBundle\ContaoMaterialBundle;
 
 class Plugin implements BundlePluginInterface
 {
