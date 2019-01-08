@@ -8,13 +8,13 @@
  * @license LGPL-3.0-or-later
  */
 
-namespace Contao\MaterialBundle\ContaoManager;
+namespace Mediaquery\MaterialBundle\ContaoManager;
 
 use Contao\CoreBundle\ContaoCoreBundle;
 use Contao\ManagerPlugin\Bundle\BundlePluginInterface;
 use Contao\ManagerPlugin\Bundle\Config\BundleConfig;
 use Contao\ManagerPlugin\Bundle\Parser\ParserInterface;
-use Contao\MaterialBundle\ContaoMaterialBundle;
+use Mediaquery\MaterialBundle\ContaoMaterialBundle;
 
 class Plugin implements BundlePluginInterface
 {
@@ -24,7 +24,7 @@ class Plugin implements BundlePluginInterface
     public function getBundles(ParserInterface $parser)
     {
         return [
-            BundleConfig::create(ContaoMaterialBundle::class)
+            BundleConfig::create(MaterialBundle::class)
                 ->setLoadAfter([ContaoCoreBundle::class]),
         ];
     }
